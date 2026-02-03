@@ -10,6 +10,15 @@ theme:
     - navigation.top
     - search.highlight
     - search.share
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode    
 
 markdown_extensions:
   - admonition
@@ -20,3 +29,6 @@ markdown_extensions:
 nav:
   - Home: index.md
   - About: about.md
+  - Docs:
+      - Overview: docs/overview.md
+      - Setup: docs/setup.md
